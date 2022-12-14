@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'kalam', sans-serif;
+    background: #108374;
+    background: -webkit-linear-gradient(to left, #098862, #1F1C18);
+    background: linear-gradient(to left, #302b5e, #1F1C18);
+    color: black;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    box-shadow: 0px 0px 12px rgb(229, 228, 235);
+    border-radius: 8px;
+    padding: 7rem;
+    height: 70vh;
+    background-color: rgba(255, 252, 252, 0.4);
+}
+
+input {
+    width: 45%;
+    font-size: 1.2rem;
+    padding: 5px 5px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+label {
+    margin: 20px;
+    font-size: 1.25rem;
+}
+
+.btn {
+    display: block;
+    width: 30%;
+    font-size: 1.2rem;
+    margin: 10px 160px;
+    padding: 15px 0;
+    background-color: #032158;
+    color:#fff;
+    border: 1px solid #333;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+}
+
+.message {
+    text-align: center;
+    padding: 10px;
+}
