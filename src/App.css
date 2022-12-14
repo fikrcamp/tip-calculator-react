@@ -1,0 +1,101 @@
+body {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.container {
+    background-image: url(./images/tip2.png);
+    text-align: center;
+    height: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    z-index: 8;
+}
+
+
+.child {
+    /* padding-top: 20%; */
+    background-color: #52796f;
+    background-image: url(./images/tip4.svg);
+    background-size: 190px auto;
+    background-repeat: no-repeat;
+    height: 35vw;
+    width: 50vw;
+    border: 2px solid black;
+    border-radius: 30px;
+    z-index: 5;
+}
+
+.child>h1,
+label {
+
+    padding-top: 20%;
+}
+
+.header {
+    font-size: 35px;
+    font-style: oblique;
+    font-family: fantasy;
+
+}
+
+.label-0 {
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-bottom: 13px;
+    color: #f2f2f2;
+
+}
+
+.input-0 {
+    margin-left: 9px;
+    text-align: center;
+    padding: 10px 20px;
+    border: 0.5px solid black;
+    border-radius: 20px;
+}
+
+.btn {
+    padding: 10px 30px;
+    border: 1px solid black;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn:hover {
+    background-color: #ff7d00;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn:active {
+    background-color: #dc2f02;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.result {
+    margin-top: 50px;
+    background-color: #06d6a0;
+    color: black;
+    display: inline-block;
+    padding: 10px 20px;
+    border: dotted 2px black;
+    border-radius: 20px;
+
+}
+
+
+.icon {
+    font-size: 45px;
+    padding-top: 40px;
+    background: #74c69d;
+    padding: 5px 15px;
+    border: 0.5px solid black;
+    border-radius: 30px;
+
+}
