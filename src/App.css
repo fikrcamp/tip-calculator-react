@@ -1,0 +1,40 @@
+body{
+  height: 100vh;
+  background-color: rgb(241, 155, 241);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
+  color: white;
+}
+.tip {
+  gap: 10px;
+  width: 15rem;
+  height: 30;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(252, 104, 252);
+  padding: 20px;
+
+}
+.tip > input{
+  padding: 5px;
+  background: rgb(252, 104, 252);
+  border: 1px solid rgb(105, 2, 105);
+}
+.tip > input:focus{
+  border: 1px dashed rgb(105, 2, 105);
+  outline: 0;
+}
+.tip > button{
+  padding: 5px;
+  width: 5rem;
+  border: 1px solid rgb(105, 2, 105);
+  border-radius: 10px;
+  background: rgb(252, 104, 252);
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
